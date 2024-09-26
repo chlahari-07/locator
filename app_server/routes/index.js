@@ -6,8 +6,8 @@ var ctrlmain = require('../controllers/main');
  
 router.get('/', ctrlLocations.homelist); 
 router.get('/locations', ctrlLocations.locationInfo); 
-router.get('/locations', ctrlLocations.locationInfo1); 
-router.get('/locations', ctrlLocations.locationInfo2); 
+router.get('/location1', ctrlLocations.locationInfo1); 
+router.get('/location2', ctrlLocations.locationInfo2); 
 router.get('/review', ctrlLocations.addReview); 
  
 router.get('/about', ctrlothers.about); 
