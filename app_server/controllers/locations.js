@@ -10,18 +10,21 @@ module.exports.homelist = function (req, res) {
             name: 'Nextgen Hostels',
             address: 'Swarnagiri colony, Pocharam, Hyderabad',
             rating: 4,
+            cost:'Rooms Starting From: 7k - 10k',
             facilities: ['Homely food', 'Premium wifi','bus facility','washing machine'],
             distance: '2km'
         }, {
             name: 'Ganapathi Hostels',
             address: 'Arundathi colony, Jodimetla, Hyderabad',
             rating: 3,
+            cost:'Rooms Starting From: 6k - 9k',
             facilities: ['Homely food', 'Premium wifi','washing machine'],
             distance: '1.5km'
         }, {
             name: 'Harika Hostels',
             address: 'chowdariguda, Hyderabad',
             rating: 2,
+            cost:'Rooms Starting From: 5k - 8k',
             facilities: ['Homely food', 'Premium wifi','bus facility'],
             distance: '6km'
         }]
